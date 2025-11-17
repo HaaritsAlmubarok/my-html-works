@@ -141,7 +141,7 @@ tr:nth-child(even) {
 
 .gallery .card img {
   width: 100%;
-  height: 130px;
+  height: 200px;
   object-fit: cover; /* Memastikan gambar mengisi area */
 }
 
@@ -243,7 +243,10 @@ button[type='submit'] {
     display: inline-block;
     /* Tidak pindah baris (seperti inline) */
     /* Bisa diatur ukuran (seperti block) */
-    width: 200px;
+    width: 49%;
+  }
+  .gallery .card img{
+    height: 300px;
   }
   iframe {
     width: 100%;
@@ -302,11 +305,11 @@ button[type='submit'] {
     display: inline-block;
     /* Tidak pindah baris (seperti inline) */
     /* Bisa diatur ukuran (seperti block) */
-    width: 595px;
+    width: 49%;
   }
   .gallery .card img {
-    width: 595px;
-    height: 450px;
+    width: 100%;
+    height: 350px;
     /* gap: 200px; */
     object-fit: cover; /* Memastikan gambar mengisi area lingkaran */
   }
